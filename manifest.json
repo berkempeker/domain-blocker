@@ -245,10 +245,10 @@
       ]
     }
   ],
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "domain-blocker@wyvrin.addons.mozilla.org", 
-      "strict_min_version": "57.0"
+      "strict_min_version": "58.0"
     }
   }
 }

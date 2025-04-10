@@ -160,7 +160,7 @@ blocklist.manager.handleImportButton = function (pattern) {
 blocklist.manager.handleImportButtonResult = function (response) {
   let showMessage = document.createElement('p');
   showMessage.style.cssText = 'background:#dff0d8;color:#3c763d;padding:10px;';
-  showMessage.innerHTML = browser.i18n.getMessage("completeAllBlocked");
+  showMessage.textContent = browser.i18n.getMessage("completeAllBlocked");
 
   $('#submit-area').after(showMessage);
 

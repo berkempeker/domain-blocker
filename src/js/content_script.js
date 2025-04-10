@@ -33,12 +33,12 @@ blocklist.searchpage.handleAddBlocklistFromSerachResult = function (response) {
 blocklist.searchpage.showAddBlocklistMessage = function (pattern, section) {
   let showMessage = document.createElement('div');
   showMessage.style.cssText = 'color: #F00; font-size:16px;padding:0px;margin:0px 0;box-sizing:border-box;';
-  showMessage.innerHTML = browser.i18n.getMessage("completeBlocked", pattern);
+  showMessage.textContent = browser.i18n.getMessage("completeBlocked", pattern);
 
   // Add undo link
   let undoLink = document.createElement('div');
   undoLink.style.cssText = "cursor: pointer;margin-bottom:50px;font-size:16px;color: #0066c0;text-decoration: underline;";
-  undoLink.innerHTML = browser.i18n.getMessage("undoBlock");
+  undoLink.textContent = browser.i18n.getMessage("undoBlock");
   undoLink.addEventListener("click", function (e) {
     blocklist.searchpage.removePatternFromBlocklists(pattern);
     blocklist.searchpage.removeBlockMessage(e.target.parentNode);
@@ -104,7 +104,7 @@ blocklist.searchpage.addBlocklistFromSearchResult = function (hostlink, searchre
 
 blocklist.searchpage.insertAddBlockLinkInSearchResult = function (searchResult, hostlink) {
   var insertLink = document.createElement('p');
-  insertLink.innerHTML = browser.i18n.getMessage("addBlocklist", hostlink);
+  insertLink.textContent = browser.i18n.getMessage("addBlocklist", hostlink);
   insertLink.style.cssText =
     "color:#F00;margin:0px;text-decoration:underline;cursor: pointer;";
   searchResult.insertBefore(insertLink, searchResult.firstChild);

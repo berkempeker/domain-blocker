@@ -1,0 +1,28 @@
+# macOS system files
+.DS_Store
+__MACOSX/
+._*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node modules (if applicable)
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local 
