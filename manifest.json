@@ -5,6 +5,7 @@
   "description": "Enhance your Google search experience by blocking unwanted domains from search results. Easily manage your personal blocklist with a simple interface.",
   "default_locale": "en",
   "author": "wyvrin",
+  "homepage_url": "https://github.com/berkempeker/domain-blocker",
   "background": {
     "scripts": [
       "src/js/common.js"

@@ -21,15 +21,11 @@ A browser extension that enhances your Google search experience by allowing you 
 
 ### Firefox
 1. Visit the Firefox Add-ons store
-2. Search for "Domain Blocker for Google Search" or click [here](#)
+2. Search for "Domain Blocker for Google Search"
 3. Click "Add to Firefox"
 4. Grant the required permissions
 
 ### Chrome (Coming Soon)
-1. Visit the Chrome Web Store
-2. Search for "Domain Blocker for Google Search" or click [here](#)
-3. Click "Add to Chrome"
-4. Grant the required permissions
 
 ## How to Use
 
