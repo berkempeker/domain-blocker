@@ -1,0 +1,84 @@
+{
+  "completeBlocked": {
+    "message": "已完全阻止 $pattern$",
+    "description": "已完全阻止",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "addBlocklist": {
+    "message": "阻止 $pattern$",
+    "description": "阻止",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "cancelBlocked": {
+    "message": "取消阻止 $pattern$",
+    "description": "取消阻止",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "alreadlyBlocked": {
+    "message": "已阻止",
+    "description": "已阻止"
+  },
+  "blockThisUrl": {
+    "message": "阻止",
+    "description": "阻止"
+  },
+  "removeUrlFromBlocklist": {
+    "message": "移除",
+    "description": "移除"
+  },
+  "import": {
+    "message": "导入",
+    "description": "导入"
+  },
+  "export": {
+    "message": "导出",
+    "description": "导出"
+  },
+  "importDescription": {
+    "message": "输入要添加的模式列表（每行一个）：",
+    "description": "Import Description."
+  },
+  "exportDescription": {
+    "message": "复制列表到剪贴板",
+    "description": "Export Description."
+  },
+  "completeAllBlocked": {
+    "message": "阻止模式列表",
+    "description": "阻止模式列表"
+  },
+  "pws_option_mes": {
+    "message": "在URL中使用pws=0时停止阻止",
+    "description": "stop blocking when using pws=0 at URL"
+  },
+  "save": {
+    "message": "保存",
+    "description": "Save"
+  },
+  "copy": {
+    "message": "复制全部",
+    "description": "Copy all"
+  },
+  "back": {
+    "message": "返回",
+    "description": "Back"
+  },
+  "blockListHeader": {
+    "message": "阻止列表",
+    "description": "Block list header"
+  }
+}

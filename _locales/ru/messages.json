@@ -1,0 +1,84 @@
+{
+  "completeBlocked": {
+    "message": "Заблокирован $pattern$",
+    "description": "Заблокирован",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "addBlocklist": {
+    "message": "Заблокировать $pattern$",
+    "description": "Заблокировать",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "cancelBlocked": {
+    "message": "Разблокировать $pattern$",
+    "description": "Разблокировать",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "alreadlyBlocked": {
+    "message": "Заблокирован",
+    "description": "Заблокирован"
+  },
+  "blockThisUrl": {
+    "message": "Заблокировать",
+    "description": "Заблокировать"
+  },
+  "removeUrlFromBlocklist": {
+    "message": "Разблокировать",
+    "description": "Разблокировать"
+  },
+  "import": {
+    "message": "Импорт",
+    "description": "Импорт"
+  },
+  "export": {
+    "message": "Экспорт",
+    "description": "Экспорт"
+  },
+  "importDescription": {
+    "message": "Введите список шаблонов для добавления (по одному в строке):",
+    "description": "Import Description."
+  },
+  "exportDescription": {
+    "message": "Скопируйте список в буфер обмена",
+    "description": "Export Description."
+  },
+  "completeAllBlocked": {
+    "message": "Список заблокированных шаблонов",
+    "description": "Список заблокированных шаблонов"
+  },
+  "pws_option_mes": {
+    "message": "не блокировать при использовании pws=0 в URL",
+    "description": "stop blocking when using pws=0 at URL"
+  },
+  "save": {
+    "message": "Сохранить",
+    "description": "Save"
+  },
+  "copy": {
+    "message": "Копировать все",
+    "description": "Copy all"
+  },
+  "back": {
+    "message": "Назад",
+    "description": "Back"
+  },
+  "blockListHeader": {
+    "message": "Список блокировок",
+    "description": "Block list header"
+  }
+}

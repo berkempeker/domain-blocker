@@ -1,0 +1,84 @@
+{
+  "completeBlocked": {
+    "message": "تم حظر $pattern$ بالكامل",
+    "description": "تم الحظر بالكامل",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "addBlocklist": {
+    "message": "حظر $pattern$",
+    "description": "حظر",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "cancelBlocked": {
+    "message": "إلغاء حظر $pattern$",
+    "description": "إلغاء الحظر",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "alreadlyBlocked": {
+    "message": "محظور",
+    "description": "محظور"
+  },
+  "blockThisUrl": {
+    "message": "حظر",
+    "description": "حظر"
+  },
+  "removeUrlFromBlocklist": {
+    "message": "إزالة",
+    "description": "إزالة"
+  },
+  "import": {
+    "message": "استيراد",
+    "description": "استيراد"
+  },
+  "export": {
+    "message": "تصدير",
+    "description": "تصدير"
+  },
+  "importDescription": {
+    "message": "أدخل قائمة الأنماط لإضافتها (واحد في كل سطر):",
+    "description": "Import Description."
+  },
+  "exportDescription": {
+    "message": "انسخ القائمة إلى الحافظة",
+    "description": "Export Description."
+  },
+  "completeAllBlocked": {
+    "message": "قائمة الأنماط المحظورة",
+    "description": "قائمة الأنماط المحظورة"
+  },
+  "pws_option_mes": {
+    "message": "إيقاف الحظر عند استخدام pws=0 في URL",
+    "description": "stop blocking when using pws=0 at URL"
+  },
+  "save": {
+    "message": "حفظ",
+    "description": "Save"
+  },
+  "copy": {
+    "message": "نسخ الكل",
+    "description": "Copy all"
+  },
+  "back": {
+    "message": "رجوع",
+    "description": "Back"
+  },
+  "blockListHeader": {
+    "message": "قائمة الحظر",
+    "description": "Block list header"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "completeBlocked": {
+    "message": "$pattern$をブロックしました",
+    "description": "ブロックしました",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "addBlocklist": {
+    "message": "$pattern$ をブロックする",
+    "description": "patternをブロックする",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "cancelBlocked": {
+    "message": "$pattern$ のブロックを取り消す",
+    "description": "pattern のブロックを取り消す",
+    "placeholders": {
+      "pattern": {
+        "content": "$1",
+        "example": "example.com"
+      }
+    }
+  },
+  "alreadlyBlocked": {
+    "message": "ブロック済み",
+    "description": "ブロック済み"
+  },
+  "blockThisUrl": {
+    "message": "ブロックする",
+    "description": "ブロックする"
+  },
+  "removeUrlFromBlocklist": {
+    "message": "ブロック解除",
+    "description": "ブロック解除"
+  },
+  "import": {
+    "message": "インポート",
+    "description": "インポート"
+  },
+  "export": {
+    "message": "エクスポート",
+    "description": "エクスポート"
+  },
+  "importDescription": {
+    "message": "ブロックしたいドメイン/ホストのリストを 1 行に 1 つずつ入力してください。",
+    "description": "importDescription"
+  },
+  "exportDescription": {
+    "message": "リストをコピーすることで、あなたのブロックリストを他人に共有できます",
+    "description": "ExportDescription."
+  },
+  "completeAllBlocked": {
+    "message": "全てのURLをブロックしました",
+    "description": "ブロックしました"
+  },
+  "pws_option_mes": {
+    "message": "URLにpws=0を使用時、ブロックしない",
+    "description": "stop blocking when using pws=0 at URL"
+  },
+  "save": {
+    "message": "保存",
+    "description": "Save"
+  },
+  "copy": {
+    "message": "全てコピー",
+    "description": "Copy all"
+  },
+  "back": {
+    "message": "戻る",
+    "description": "Back"
+  },
+  "blockListHeader": {
+    "message": "ブロックリスト",
+    "description": "Block list header"
+  }
+}
