@@ -6,7 +6,7 @@ blocklist.searchpage.mutationObserver = null;
 
 blocklist.searchpage.pws_option = "off";
 
-blocklist.searchpage.SEARCH_RESULT_DIV_BOX = "div.MjjYud";
+blocklist.searchpage.SEARCH_RESULT_DIV_BOX = "div.MjjYud, div.JCZQSb";
 
 blocklist.searchpage.LINK_TAG = "a[jsname='UWckNb']";
 
